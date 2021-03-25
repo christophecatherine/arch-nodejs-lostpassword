@@ -1,0 +1,28 @@
+{{!-- 
+    Page Article
+    /article
+--}}
+
+<h1>Article</h1>
+
+<h2><u>Liste Article:</u></h2>
+
+{{!-- 
+    Dans le block en dessous ce trouve la boucle des articles
+    retrouver le dans ./partial/article
+--}}
+{{> article/listArticle }}
+
+
+{{!-- 
+    Dans le block en dessous le boutton de suppression de tout les articles
+    retrouver le dans ./partial/article
+--}}
+{{> article/deleteAllArticle }}
+
+
+{{!-- 
+    Dans le block en dessous le boutton d'ajout d'article
+    retrouver le dans ./partial/article
+--}}
+{{> article/createArticle }}
