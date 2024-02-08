@@ -33,7 +33,7 @@
         "nodemailer": "^6.4.2"
     },
     "devDependencies": {
-        "handlebars": "^4.5.0",
+        "handlebars": "^4.7.8",
         "morgan": "^1.9.1",
         "nodemon": "^2.0.2"
     }
